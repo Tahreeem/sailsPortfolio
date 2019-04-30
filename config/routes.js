@@ -33,7 +33,13 @@ module.exports.routes = {
   'GET /account/password':   { action: 'account/view-edit-password' },
   'GET /account/profile':    { action: 'account/view-edit-profile' },
 
-  'GET /about/aboutMain':    { action: 'about/view-about-main' },
+  'GET /about':              { action: 'about/view-about-main' },
+  'GET /blog':               { action: 'blog/view-blog' },
+  'GET /contactme':          { action: 'contact-me/view-contact-me' },
+  'GET /services':           { action: 'services/view-services' },
+  'GET /work':               { action: 'work/view-work' },
+  'GET work-single':         { action: 'work-single/view-work-single' },
+  'GET /index':              { action: 'index/view-index' },
   //  ╔╦╗╦╔═╗╔═╗  ╦═╗╔═╗╔╦╗╦╦═╗╔═╗╔═╗╔╦╗╔═╗   ┬   ╔╦╗╔═╗╦ ╦╔╗╔╦  ╔═╗╔═╗╔╦╗╔═╗
   //  ║║║║╚═╗║    ╠╦╝║╣  ║║║╠╦╝║╣ ║   ║ ╚═╗  ┌┼─   ║║║ ║║║║║║║║  ║ ║╠═╣ ║║╚═╗
   //  ╩ ╩╩╚═╝╚═╝  ╩╚═╚═╝═╩╝╩╩╚═╚═╝╚═╝ ╩ ╚═╝  └┘   ═╩╝╚═╝╚╩╝╝╚╝╩═╝╚═╝╩ ╩═╩╝╚═╝
